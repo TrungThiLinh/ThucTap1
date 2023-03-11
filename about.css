@@ -1,0 +1,70 @@
+.body {
+    width: auto;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+   
+}
+#wrapper {
+    width: auto;
+    margin: auto;
+}
+
+
+#header {
+    width: auto;
+    height: auto;
+    
+}
+#header .carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+#header .carousel-inner h3{
+    color: black;
+    font-size: 35px;
+    font-family: "Lucida Console", Monospace;
+}
+#header .carousel-inner p {
+    color: black;
+    font-size: 12px;
+    font-family: "Monaco", Monospace;
+}
+#content {
+    width: auto;
+    height: auto;
+    padding-top: 50px; 
+    background-color: rgb(183, 180, 180);
+    
+}
+#content h4 {
+    font-size: 15px;
+    color: rgb(27, 27, 27);
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Garamond", Serif;
+}
+#main_content {
+    height: 800px;
+    width: auto;
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/08/01/anh-nen-mau-xam_055858999.jpg);
+
+}
+#end_content{
+    height: auto;
+    width: auto;
+    background-color: rgb(116, 107, 107);
+}
+#footer {
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+#footer  li{
+    padding-right: 20px;
+    
+}
+
+#footer  h6{
+    text-align: center;
+    font-size: 12px;
+}

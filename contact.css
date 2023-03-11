@@ -1,0 +1,137 @@
+.body {
+    font-size: 28px;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    height: auto;
+    background-color: rgb(150, 148, 148);
+}
+
+.navbar {
+    background-color: rgb(150, 148, 148);
+}
+#header {
+    width: auto;
+    height: auto;
+    background-color: rgb(150, 148, 148);
+}
+#header .card{
+    border: 0;
+    margin-left: 100px;
+    background-color: rgb(150, 148, 148);
+    padding-bottom: 0px;
+}
+#header .card .card-body {
+    padding-top: 40%;
+}
+#header .card .card-img {
+    padding-top: 50%;
+}
+/*
+#header .card h2{
+    padding-top: 250px;
+    font-family: "Times New Roman", Serif;
+    font-size: 40px;
+}
+#header .card h4{
+    font-family: "Garamond", Serif;
+    font-size: 20px;
+}
+*/
+#header .card h5{
+    margin-left: 200px;
+
+}
+#header .card h6{
+    margin-left: 200px;
+}
+#header .card .btn{
+    background-color: rgb(75, 73, 73);
+}
+
+#content {
+    width: auto;
+    height: auto;
+    background-color: pink;
+}
+
+#footer {
+    width: auto;
+    height: auto;
+    background-color: white;
+
+}
+#footer  li{
+    padding-right: 20px;
+    background-color: white;
+}
+
+#footer  h6{
+    text-align: center;
+    font-size: 12px;
+}
+#header .card1 {
+    padding-left: 30%;
+}
+#header .card .card-img {
+    height: 100%;
+    width: 100%;
+}
+
+/* tablet: width >= 740px and width <1000px  */ 
+@media (max-width: 820px) {
+    
+
+    #header .card .card-body{
+        padding-top: 10%;
+    }
+    
+    
+    #header .card .card-img{
+        height: 200%;
+        width: 100%;
+
+    }
+    #header .card1 {
+        padding-left: 30%;
+    }
+    
+}
+[class*="col-"] {
+    width: 100%;
+  }
+/* mobile: width < 740px */
+
+@media (max-width: 390px){
+    #header .card .card-body{
+        padding-top: 30%;
+        padding-left: 5%;
+
+    }
+    .card-title {
+        padding-top: 0px;
+        font-size: 7%;
+        padding-left: 5%;
+    }
+    .card-text {
+        font-size: 4%;
+        padding-left: 5%;
+    }
+    
+
+    #header .card .card-img{
+        padding-top: 0px;
+        height: 200%;
+        width: 50%;
+
+    }
+    .header .card1{
+        padding-right: 0px;
+        padding-left: 5%;
+    }
+
+
+}
+ 
+
+
+

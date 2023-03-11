@@ -1,0 +1,214 @@
+
+body {
+    width: auto;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+}
+#wrapper {
+    width: auto;
+    margin: auto;
+}
+
+#menu li a:hover{
+    color: rgb(123, 123, 240) ;
+}
+
+
+    
+
+
+#header {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#content h3{
+    font-family: "Lucida Console", Monospace;
+    font-size: 28px;
+}
+#content p {
+    font-family: "Courier New", Monospace;
+    font-size: 22px;
+}
+#content .card .btl{
+    left: 30%;
+
+}
+#content .card .card-body{
+    padding-top: 50%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 650px;
+}
+
+
+
+.carousel-caption h1{
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+    
+}
+.carousel-caption h3 {
+    font-size: 150%;
+    text-shadow: 2px 2px 10px #000;
+    
+    
+}
+
+#header .carousel-caption{
+    top: 50%;  
+    left: 40%; 
+    height: 20px;
+    width: 100px;
+}
+
+#header .carousel-caption .btn{
+    background: rgba(226, 223, 223, 0.915);
+    border-radius: 50px;
+    left: 50%;
+    width: 250px;
+    height: 45px;
+}
+#header .carousel-caption .btn:hover{
+    background: rgb(213, 209, 209);
+    width: 270px;
+    height: 50px;
+}
+
+
+#content {
+    width: auto;
+    height: auto;
+    padding-top: 40px;
+}
+#content .card{
+    width: auto;
+}
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 1rem; 
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 28px;
+    
+  }
+  .text-divider::before, .text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: #333;
+    flex-grow: 1;
+  }
+  .text-divider::before {
+    /* var(--text-divider-gap) là cái biến chúng ta define trước để căng margin giữa text bên trái vs bên phải so với border  */
+    margin-right: var(--text-divider-gap);  
+  }
+  .text-divider::after {
+    margin-left: var(--text-divider-gap);
+  }
+  .text-divider::before {
+    margin-right: 1rem;
+  }
+  .text-divider::after {
+    margin-left: 1rem;
+  }
+
+
+
+#footer {
+    width: auto;
+    height: auto;
+    
+}
+#footer .carousel-caption{
+    top: 50%;
+    left: 20%;
+}
+#footer .carousel-caption h4{
+    text-align: center; 
+    font-size: 20px; 
+    color: black;
+}
+
+#footer .carousel-caption .btn{
+    background: rgba(226, 223, 223, 0.915);
+    border-radius: 50px;
+    width: 250px;
+    height: 45px;
+}
+
+#footer .carousel-caption .btn:hover{
+    background:rgb(159, 155, 155);
+    width: 280px;
+    height: 50px;
+}
+#footer .end-footer li{
+    padding-right: 20px;
+}
+
+#footer .end-footer h6{
+    text-align: center;
+    font-size: 12px;
+}
+
+/* mobile: width < 740px */
+
+@media (max-width: 390px){
+    #content .card .card-body{
+        padding-top: 30%;
+
+    }
+    .card-title {
+        padding-top: 0px;
+        font-size: 7%;
+    }
+    .card-text {
+        font-size: 4%;
+    }
+    .card-img{
+        width: 70%;
+        height: 70%;
+    }
+
+    #content .card .card-img{
+        padding-top: 0px;
+
+    }
+    .content .card .card-body{
+        padding-right: 0px;
+    }
+
+
+}
+ 
+
+
+/* tablet: width >= 740px and width <1000px  */ 
+@media (max-width: 820px) {
+    
+
+    #content .card .card-body{
+        padding-top: 50%;
+    }
+    .card-title {
+        padding-top: 1px;
+        font-size: 10%;
+    }
+    .card-text {
+        font-size: 8%;
+    }
+    .card-img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+[class*="col-"] {
+    width: 100%;
+  }
+
+ 
